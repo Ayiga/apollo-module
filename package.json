@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/apollo",
-  "version": "4.0.0-rc2.1",
+  "version": "4.0.0-rc2.4",
   "license": "MIT",
   "main": "lib/module.js",
   "repository": "https://github.com/nuxt-community/apollo-module",
@@ -34,6 +34,7 @@
     "apollo-client": "^2.4.0",
     "apollo-link": "^1.2.2",
     "apollo-link-context": "^1.0.8",
+    "apollo-link-http": "^1.5.5",
     "apollo-link-persisted-queries": "^0.2.1",
     "apollo-link-state": "^0.4.1",
     "apollo-link-ws": "^1.0.8",
@@ -43,6 +44,7 @@
     "apollo-client": "^2.4.0",
     "apollo-link": "^1.2.2",
     "apollo-link-context": "^1.0.8",
+    "apollo-link-http": "^1.5.5",
     "apollo-link-persisted-queries": "^0.2.1",
     "apollo-link-state": "^0.4.1",
     "apollo-link-ws": "^1.0.8",
