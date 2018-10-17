@@ -24,12 +24,6 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "cookie": "^0.3.1",
-    "isomorphic-fetch": "^2.2.1",
-    "js-cookie": "^2.2.0",
-    "vue-apollo": "3.0.0-beta.19"
-  },
-  "peerDependencies": {
     "apollo-cache-inmemory": "^1.2.5",
     "apollo-client": "^2.4.0",
     "apollo-link": "^1.2.2",
@@ -38,16 +32,14 @@
     "apollo-link-persisted-queries": "^0.2.1",
     "apollo-link-state": "^0.4.1",
     "apollo-link-ws": "^1.0.8",
-    "subscriptions-transport-ws": "^0.9.14"
+    "cookie": "^0.3.1",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.0",
+    "subscriptions-transport-ws": "^0.9.14",
+    "vue-apollo": "3.0.0-beta.19"
   },
+  "peerDependencies": {},
   "devDependencies": {
-    "apollo-client": "^2.4.0",
-    "apollo-link": "^1.2.2",
-    "apollo-link-context": "^1.0.8",
-    "apollo-link-http": "^1.5.5",
-    "apollo-link-persisted-queries": "^0.2.1",
-    "apollo-link-state": "^0.4.1",
-    "apollo-link-ws": "^1.0.8",
     "codecov": "latest",
     "dotenv": "latest",
     "eslint": "latest",
@@ -63,7 +55,6 @@
     "jest": "latest",
     "jsdom": "latest",
     "nuxt": "latest",
-    "standard-version": "latest",
-    "subscriptions-transport-ws": "^0.9.14"
+    "standard-version": "latest"
   }
 }
